@@ -216,6 +216,10 @@ html{scroll-behavior:smooth}
 }
 @media(prefers-reduced-motion:reduce){.price{transition:none}.mq,.prog,.dot{animation:none}.btn,.btn .ar,.seal,.shot,.cls,.aud,.aud .ar,.kc,.igl img,.ck .box,.bar i,.nav a::after,.faq summary::after{transition:none}html{scroll-behavior:auto}}
 </style>
+<script>(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","zja9xjdxqa");
+document.addEventListener("click",function(e){var el=e.target.closest&&e.target.closest("a,button");if(!el||!window.clarity)return;var h=el.getAttribute("href")||"",n=null;
+if(h.indexOf("wa.me")>-1)n="whatsapp_click";else if(h.indexOf("ig.me")>-1||h.indexOf("instagram.com")>-1)n="instagram_click";else if(h==="#reserva")n="cta_reservar";else if(h.indexOf("luisroman")>-1)n="lrp_credit_click";else if(h.indexOf("maps")>-1)n="maps_click";else if(el.closest(".pick"))n="picker_"+([].indexOf.call(el.parentNode.children,el)+1);
+if(n)window.clarity("event",n);},true);</script>
 </head>
 <body>
 <div id="app"><main style="max-width:720px;margin:0 auto;padding:32px 24px;font-family:Archivo,system-ui,sans-serif;color:#111;background:#F5F3EF">
@@ -265,7 +269,7 @@ const I18N = {
 "k20": "Descansa cuando lo necesites. Tu segunda clase también es gratis.",
 "k21": "Desde los 10 años. Tienen su propia clase, aparte de los adultos.",
 "k22": "Todas las clases de tu grupo: Gi y No‑Gi, martes a jueves.",
-"k23": "© 2026 Touro Cayey BJJ · Parte de la Asociación Carlson Gracie",
+"k23": "© 2026 Touro Cayey BJJ · Parte de la Asociación Carlson Gracie · Medimos visitas de forma anónima.",
 "k24": "Dinos qué día vienes. Contestamos por WhatsApp o Instagram.",
 "k25": "Touro Cayey BJJ es parte de la Asociación Carlson Gracie.",
 "k26": "¿Prefieres Instagram? Copia el mensaje y pégalo en el DM.",
@@ -395,7 +399,7 @@ const I18N = {
 "k150": "Tu nombre",
 "k151": "Dirección",
 "k152": "Preguntas",
-"k153": "Sitio web por",
+"k153": "Sitio por",
 "k154": "Principal",
 "k155": "medallas",
 "k156": "2 clases",
@@ -481,7 +485,7 @@ const I18N = {
 "k20": "Rest whenever you need to. Your second class is free too.",
 "k21": "From 10 years old. They have their own class, separate from the adults.",
 "k22": "Every class in your group: Gi and No‑Gi, Tuesday to Thursday.",
-"k23": "© 2026 Touro Cayey BJJ · Part of the Carlson Gracie Association",
+"k23": "© 2026 Touro Cayey BJJ · Part of the Carlson Gracie Association · We measure visits anonymously.",
 "k24": "Tell us which day you're coming. We reply on WhatsApp or Instagram.",
 "k25": "Touro Cayey BJJ is part of the Carlson Gracie Association.",
 "k26": "Prefer Instagram? Copy the message and paste it in a DM.",
@@ -611,7 +615,7 @@ const I18N = {
 "k150": "Your name",
 "k151": "Address",
 "k152": "Questions",
-"k153": "Website by",
+"k153": "Site by",
 "k154": "Main",
 "k155": "medals",
 "k156": "2 classes",
